@@ -32,5 +32,7 @@ gem 'sqlite3'
 
 group :test, :development do
     gem 'rspec-rails', '~> 2.4'
+    gem 'spork', '~> 0.9.0.rc'
+    gem 'webrat'
 end
 
